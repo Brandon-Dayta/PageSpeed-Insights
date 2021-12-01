@@ -9,8 +9,8 @@ jobs:
         uses: treosh/lighthouse-ci-action@v8
         with:
           urls: |
-            https://lumber-one.com/
-            https://lumber-one.com/contact/
+            https://www.earlebrown.com/
+            https://www.earlebrown.com/events/request-for-information/
           budgetPath: ./budget.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
